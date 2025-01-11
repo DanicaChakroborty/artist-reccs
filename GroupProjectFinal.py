@@ -1,9 +1,6 @@
 '''
 Date: December 1st, 2024
-Names: Danica Chakroborty, Cade Fabio, Lucas Mauriello
-Pledge: I pledge my honor that I have abided by the Stevens Honor System
-Group Name: 404 Not Found
-Description: Group Project Part 2
+Names: Danica Chakroborty
 '''
 
 from os import path 
@@ -209,7 +206,7 @@ def show_most_popular_artists(pref, name):
     automatically to make this easier, we hope that's okay!
     We also added an extra bit - I know this wasn't in the example 2 file but it was in the directions
     to print the top THREE artists not just the top one, so that's what we did!
-    - Cade Fabio
+    - Danica Chakroborty
     '''
     database = open('musicrecplus.txt', 'r')
     artists = {}
@@ -238,7 +235,7 @@ def show_most_popular_artists(pref, name):
 def how_popular_is_most_popular_artist(database, name):
     '''
     This function will return the frequency of the most popular artist
-    - Cade Fabio
+    - Danica Chakroborty
     '''
     database = open('musicrecplus.txt', 'r')
     artists = {}
@@ -266,7 +263,7 @@ def how_popular_is_most_popular_artist(database, name):
 def which_user_likes_the_most_artists(name, num):
     '''
     This function will return the user with the most likes
-    - Cade Fabio
+    - Danica Chakroborty
     '''
     database = open('musicrecplus.txt', 'r')
     user_likes = {}
@@ -294,7 +291,7 @@ def which_user_likes_the_most_artists(name, num):
 def save_and_quit(name, prefList):
     '''
     This function will save the input and changes made by the user and end the program
-    - Cade Fabio
+    - Danica Chakroborty
     '''
     form = ''
     hold = []
